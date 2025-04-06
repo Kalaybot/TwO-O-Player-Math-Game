@@ -15,7 +15,7 @@ class Question
   end
 
   # Check if the player's answer is correct
-  def correct?(input)
-    input.to i == @answer
+  def correct_answer?(input)
+    input.to_i == @answer
   end
 end
